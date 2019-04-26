@@ -13,10 +13,8 @@ public class BeanOne {
 	
 	public BeanOne() {
 		super();
-		log.info("In BeanOne profile UAT");
+		log.info("In BeanOne Under Profile UAT");
 		
 	}
 	
-	
-
 }

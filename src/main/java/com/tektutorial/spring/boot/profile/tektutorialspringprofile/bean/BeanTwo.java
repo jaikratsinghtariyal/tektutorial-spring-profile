@@ -13,7 +13,7 @@ public class BeanTwo {
 	
 	public BeanTwo() {
 		super();
-		log.info("In BeanTwo profile DEV");
+		log.info("In BeanTwo Under Profile DEV");
 	}
 	
 }

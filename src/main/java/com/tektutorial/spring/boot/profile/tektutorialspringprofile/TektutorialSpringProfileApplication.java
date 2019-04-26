@@ -7,12 +7,9 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @ComponentScan("com.tektutorial.*")
 public class TektutorialSpringProfileApplication {
-
 	
 	public static void main(String[] args) {
-		SpringApplication obj = new SpringApplication(TektutorialSpringProfileApplication.class);
-		//obj.setAdditionalProfiles("dev");
-		obj.run(TektutorialSpringProfileApplication.class, args);
+		SpringApplication.run(TektutorialSpringProfileApplication.class, args);
 	}
 
 }
